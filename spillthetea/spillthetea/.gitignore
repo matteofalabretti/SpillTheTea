@@ -1,0 +1,86 @@
+# ====================
+# Maven / Java standard
+# ====================
+
+# Cartelle generate da Maven
+target/
+target-eclipse/
+.mvn/
+.m2/
+mvnw
+mvnw.cmd
+
+# File temporanei Maven
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# IDE / Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs e temporanei
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database di sviluppo (se usi file SQLite locale)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Dipendenze scaricate localmente (se usi wrapper)
+lib/
+libs/
+
+# Environment / Secrets (non committare mai!)
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+keystore.jks
+truststore.jks
+
+# Altro comune in progetti Java web
+src/main/webapp/WEB-INF/classes/
+src/main/webapp/META-INF/
+src/test/resources/*.properties.local
